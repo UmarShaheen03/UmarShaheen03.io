@@ -1,0 +1,451 @@
+.info {
+    color: white;
+    margin: 2rem;
+    padding: 10px;
+    display: flex;
+
+}
+
+.main {
+    margin-left: 200px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(56, 56, 56);
+    border-radius: 20px;
+    background-color: rgb(30, 30, 31);
+    margin-top: 30px;
+}
+
+body {
+    background-color: #150625;
+    font-family: Consolas, Monaco, Lucida Console, Liberation Mono;
+    font-size: larger;
+    color: white;
+}
+
+
+.infocontact {
+    background-color: rgb(30, 30, 31);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(56, 56, 56);
+    border-radius: 20px;
+    margin: 100px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.infoitem:hover {
+    transform: scale(1.25);
+
+}
+
+.infoitem {
+    transition: all 0.3s ease;
+}
+
+.info-text {
+    width: 50vw;
+}
+
+.buttons:hover{
+    transform: scale(1.25);
+}
+
+
+.buttonholder {
+    margin-top: 2rem;
+}
+
+
+.buttons {
+    margin-right: 1rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: 3px solid #cf2358;
+    display: inline-block;
+    border-radius: 3rem;
+    transition: all 0.3s ease;
+}
+
+
+#resume {
+    background-color: #cf2358;
+}
+
+.container{
+    position: relative;
+   
+    width: 50vw;
+}
+
+.background-circle {
+    width:300px;
+    height:300px;
+    border-radius: 50%;
+    background-color: #cf2358;
+    position: absolute;
+    margin-left: 5rem;
+    z-index: 1;
+}
+
+.person-image {
+    margin-left: 5rem;
+    position: absolute;
+    width: 300px;
+    height: auto;
+    z-index: 2;
+    border-radius: 50%;
+    /* Optional: crop image into a circle */
+}
+
+.small-circle:hover{
+    transform: scale(1.25);
+}
+
+.small-circle {
+    border-radius: 50%;
+    background-color: #cf2358;
+    position: absolute;
+    transition: all 0.5s ease;
+    /* Same color as the main circle */
+    z-index: 0;
+}
+
+.circle1 {
+    width: 60px;
+    height: 60px;
+    top: 10%;
+    left: 55%;
+}
+
+.circle2 {
+    width: 40px;
+    height: 40px;
+    top: 110%;
+    left: 50%;
+}
+
+.circle3 {
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    left: 60%;
+}
+
+.circle4{
+    width:20px;
+    height:20px;
+    top: 105%;
+    left: 10%;
+}
+
+
+.about-me {
+    margin: 2rem auto;
+    padding: 2rem;
+    color: white;
+    border-radius: 10px;
+    text-align: left;
+    line-height: 1.6;
+    display: inline-block;
+}
+
+.about-me h1 {
+    color: #cf2358;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+
+
+.about-me p {
+    margin-bottom: 1rem;
+    color: #e0e0e0;
+}
+
+
+ion-icon {
+    font-size: 40px;
+    color:white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+  }
+.logoback{
+    background-color:#cf2358;
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    
+    
+}
+
+.logoback:hover{
+    transform: translateY(0px);
+    animation-name: float;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+
+}
+
+@keyframes float {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-16px)
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+#css{
+    left: 15%;
+}
+
+#python{
+    top: 60%;
+    left: 30%;
+}
+#docker{
+    left:45%;
+}
+
+#windows{
+    left:60%;
+    top:60%;
+}
+
+#linux{
+    left: 75%;
+}
+
+#html{
+    left: 90%;
+    top: 60%;
+    
+}
+
+#JavaScript{
+    top: 60%;
+    
+}
+#skillswrap{
+    display:flex
+}
+#skillstitle{
+    width: 50vw;
+    position: relative;
+}
+#skills{
+    margin: 2rem;
+}
+#skills> h1{
+    color: #cf2358;
+}
+#skills-info{
+    padding-left: 5rem;
+    margin-left: 2rem;
+}
+
+#skills-info li{
+    float:left;
+    width: 50%;
+    line-height: 2rem;
+    list-style-type:square;
+    font-size:x-large;
+}
+
+
+#background{
+    
+    background-color: #cf2358;
+    border-top-left-radius: 10rem;
+    border-top-right-radius: 10rem;
+    
+    height: 10rem;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+#projects > h1{
+    margin-top: 8rem;
+    margin-left: 2rem;
+}
+.spide{
+    margin: 2rem;
+}
+.splide__track{
+    margin: 3rem;  
+}
+
+
+.wrapper img{
+    height: 300px;
+    width: 500px;
+    background-color: white;
+
+}
+
+.wrapper>h3{
+    margin-bottom: 4rem;
+}
+
+.carousel-link{
+    text-decoration: none;
+    color: white;
+}
+
+.carousel-link:visited{
+    color: white;
+}
+
+
+.studepop{
+    position:fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all ease 0.5s;
+}
+
+.studepop.open{
+    opacity: 1;
+    z-index: 100; 
+}
+
+.dehdashtipop{
+    position:fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all ease 0.5s;
+}
+
+
+
+.dehdashtipop.open{
+    opacity: 1;
+    z-index: 100; 
+}
+
+#dehdashtiexit{
+    text-align: center;
+    display: inline-block;
+    margin: 2rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    width: 70px;
+    height: 22px;
+    background-color: #cf2358;
+    border-radius: 3rem;
+    transition: all ease 0.5s;
+}
+
+#dehdashtiexit:hover{
+    transform: scale(1.2);
+}
+
+.syncpop{
+    position:fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all ease 0.5s;
+}
+
+.syncpop.open{
+    opacity: 1;
+    z-index: 100; 
+}
+
+.snatchpop{
+    position:fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all ease 0.5s;
+}
+
+.snatchpop.open{
+    opacity: 1;
+    z-index: 100; 
+}
+
+
+.imagewrapper{
+    margin: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.imagewrapper>img{
+    height: 300px;
+    width: 450px;
+    
+}
+
+.pop-content> h2{
+    margin: 2rem;
+}
+
+.pop-content>p{
+    margin:2rem;
+}
+.pop-content{
+    width: 80vw;
+    height: 75vh;
+    top: 50%;
+    left: 50%;
+    background-color: #150625;
+    border-radius: 2rem;
+    z-index: 101;
+}
+
+
+
+

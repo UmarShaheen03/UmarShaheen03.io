@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    overflow: hidden;
+  }
+  
+  .circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    transition: transform 0.2s ease;
+  }
+  
+  .red {
+    background-color: red;
+    top: 20%;
+    left: 30%;
+  }
+  
+  .blue {
+    background-color: blue;
+    top: 50%;
+    left: 50%;
+  }
+  
+  .green {
+    background-color: green;
+    top: 70%;
+    left: 70%;
+  }
+  
